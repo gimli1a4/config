@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Evernote
+Exec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=nkjgiaccncgbfnfhfhhnpbncimnnnmhn
+Icon=chrome-nkjgiaccncgbfnfhfhhnpbncimnnnmhn-Default
+StartupWMClass=crx_nkjgiaccncgbfnfhfhhnpbncimnnnmhn
