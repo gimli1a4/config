@@ -239,7 +239,7 @@ exec --no-startup-id xrandr --output HDMI-1-1 --auto --left-of HDMI-3
 #exec --no-startup-id xsetroot -solid "#FFFFFF"
 exec --no-startup-id compton
 #exec --no-startup-id feh --bg-tile ~/Desktop/white.jpg
-exec --no-startup-id ~/scripts/wal.sh -t -i "/home/juri/Desktop/wal-papers/"
+exec --no-startup-id ~/scripts/wal.sh -t -i "/home/juri/Dropbox/wal-papers/"
 ##i3-gaps
 for_window [class="^.*"] borderpixel 0
 gaps inner 25
