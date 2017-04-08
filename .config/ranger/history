@@ -1,5 +1,0 @@
-set show_hidden true
-rename .config
-shell mkdir Desktop
-delete
-rename .bashrc

@@ -1,8 +1,9 @@
-DATA HOSTED WITH ♥ BY PASTEBIN.COM - DOWNLOAD RAW - SEE ORIGINAL
 #!/bin/bash
- 
+factor=10
+scale=$[10000/factor]
 scrot /tmp/screen.png
-convert /tmp/screen.png -scale 10% -scale 1000% /tmp/screen.png
+convert /tmp/screen.png -scale ${factor}% -scale ${scale}% /tmp/screen.png
+#convert /tmp/screen.png -blur 0x11 /tmp/screen.png
  
 if [[ -f $HOME/.config/screen-lock.png ]]
 then
