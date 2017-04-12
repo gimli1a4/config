@@ -256,4 +256,5 @@ bindsym $mod+Escape exec --no-startup-id "~/scripts/lock.sh"
 bindsym $mod+bracketright move workspace to output right
 bindsym $mod+bracketleft move workspace to output left
 
+bindsym $mod+Home exec --no-startup-id "~/scripts/startup/startup.sh"
 

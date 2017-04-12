@@ -1,0 +1,49 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 0,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 954,
+       "width": 1822,
+       "x": 49,
+       "y": 49
+    },
+    "name": "Toggl",
+    "percent": 0.5,
+    "swallows": [
+       {
+       "class": "^Google\\-chrome$",
+       // "instance": "^crx_emhlbipdbnglohkhcmimglnngjlfoehc$",
+       "title": "*Toggl$"
+       // "transient_for": "^$",
+       // "window_role": "^pop\\-up$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 0,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 954,
+       "width": 1822,
+       "x": 49,
+       "y": 49
+    },
+    "name": "Lancet | Evernote Web",
+    "percent": 0.5,
+    "swallows": [
+       {
+       "class": "^Google\\-chrome$",
+       // "instance": "^crx_nkjgiaccncgbfnfhfhhnpbncimnnnmhn$",
+       "title": "*Evernote\\ Web$"
+       // "transient_for": "^$",
+       // "window_role": "^pop\\-up$"
+       }
+    ],
+    "type": "con"
+}
+

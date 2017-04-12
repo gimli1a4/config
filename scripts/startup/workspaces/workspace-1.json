@@ -1,0 +1,125 @@
+// vim:ts=4:sw=4:et
+{
+    // this is a manually added container to restore the vertical split
+    "layout": "splith",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+
+
+// vim:ts=4:sw=4:et
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 290,
+               "width": 899,
+               "x": 1969,
+               "y": 49
+            },
+            "name": "Mail - juri@yellowprofessional.com",
+            "percent": 0.5,
+            "swallows": [
+               {
+               //"class": "^Google\\-chrome$",
+                "instance": "^crx_pilpdigajflongmcjbpfocacibaedafe$"
+               "title": "*juri\\@yellowprofessional\\.com$"
+               // "transient_for": "^$",
+               // "window_role": "^pop\\-up$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 327,
+               "width": 899,
+               "x": 1969,
+               "y": 363
+            },
+            "name": "Skype",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "class": "^Google\\-chrome$",
+                "instance": "^crx_oonccmmafcaodljbcgobdbknmbljiafh$",
+               "title": "*Skype$"
+               // "transient_for": "^$",
+               // "window_role": "^pop\\-up$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+},
+
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 465,
+               "width": 899,
+               "x": 972,
+               "y": 49
+            },
+            "name": "Inbox - juri27@gmail.com - Gmail",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "class": "^Google\\-chrome$",
+                "instance": "^crx_kmhopmchchfpfdcdjodmpfaaphdclmlj$",
+               "title": "*Gmail$"
+               // "transient_for": "^$",
+               // "window_role": "^pop\\-up$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 465,
+               "width": 899,
+               "x": 972,
+               "y": 538
+            },
+            "name": "WhatsApp",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "class": "^Google\\-chrome$",
+                "instance": "^crx_hnpfjngllnobngcgfapefoaidbinmjnm$",
+               "title": "*WhatsApp$"
+               // "transient_for": "^$",
+               // "window_role": "^pop\\-up$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+    ]
+}
