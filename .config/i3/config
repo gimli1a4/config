@@ -8,8 +8,8 @@
 # i3 config file (v4)
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
-
-set $mod Mod4
+#is actually space
+set $mod Mod3
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -92,10 +92,10 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+bindsym $mod+Shift+p floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+bindsym $mod+p focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -243,7 +243,7 @@ exec --no-startup-id ~/scripts/wal.sh -t -i "/home/juri/Dropbox/wal-papers/"
 ##i3-gaps
 for_window [class="^.*"] borderpixel 0
 gaps inner 25
-gaps outer 25
+#gaps outer 25
 #smart_borders on
 #new_window pixel 5
 #new_float pixel 5
